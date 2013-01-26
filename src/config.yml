@@ -1,0 +1,15 @@
+#/*****************************************************************************\
+#|                              PunishTheBad                                   |
+#|                                 Config                                      |
+#\*****************************************************************************/
+#
+#
+# List commands you want to punish here
+# If the player tries to execute command, without the permission specified after the :
+# It will execute the punishment (and replace the %p with the playername)
+# no permission specified means op by default
+
+commands:
+  - op:bukkit.op
+  
+punishment: '/kill %p'
